@@ -1,0 +1,79 @@
+html
+{
+	margin: 0;
+	padding: 0;
+}
+
+body
+{ 
+	font-family: Lato, proxima-nova, Helvetica Neue, Arial, sans-serif;
+	color: rgb(50, 50, 50);
+	margin: 0;
+	padding: 0;
+	background: rgb(251, 251, 251);
+}
+
+h1#name
+{
+	font-weight: bold;
+	margin: 0;
+	margin-top: 5px;
+}
+
+address
+{
+	font-style: normal;
+}
+
+#main
+{
+	width: 80%;
+	max-width: 1400px;
+	margin-left: auto;
+	margin-right: auto;
+	margin: 0 auto;
+	padding: 25px 15px 15px 15px;
+	background: rgb(251, 251, 251);
+}
+
+@media (max-width: 800px)
+{
+	#main
+	{
+		width: 97%;
+		margin-left: auto;
+		margin-right: auto;
+		padding: 0 5px;
+		background: rgb(251, 251, 251);
+	}
+}
+
+#publications li
+{
+	margin-bottom: 0.2ex;
+}
+
+
+a:hover, a:focus
+{
+    color: #2A6496;
+    text-decoration: underline;
+}
+
+a:active, a:hover
+{
+    outline: 0px none;
+}
+
+a
+{
+    color: #428BCA;
+    text-decoration: none;
+}
+
+.article-title
+{
+	font-weight: bold;
+	font-style: normal;
+}
+
